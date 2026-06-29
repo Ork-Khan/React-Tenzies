@@ -8,7 +8,10 @@
   vertical-align: middle;
   line-height: 100px;  
   font-weight: 700;
-  font-size: 2em;     
+  font-size: 2em;   
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */  
 }
 
 .selected{
@@ -32,6 +35,9 @@
   vertical-align: middle;
   line-height: 75px;
   border-radius: 5px;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 main{
