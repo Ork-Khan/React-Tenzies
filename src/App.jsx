@@ -30,6 +30,7 @@ function App() {
   function handleRollClick(){
     if(hasWon){
       setDices(randomNumbers());
+      setCount(0);
       setHasWon(false);
     }else{ 
       setCount(prev => prev+1);
@@ -59,7 +60,6 @@ function App() {
 
     if(allSelected && !hasWon){
       setHasWon(true);
-      setCount(0);
       setNumber(null);
     }
   }
